@@ -1,0 +1,32 @@
+{
+"Rules":[ 
+    { 
+       "SettingName":"DomainJoined",
+       "Operator":"IsEquals",
+       "DataType":"Boolean",
+       "Operand":true,
+       "MoreInfoUrl":"http://helpdesk/WebAccess/wd/Dashboard/OpenHomeDashboard.rails?id=0c1f39cd-743b-4698-8fbf-ee35eae8d1b0",
+       "RemediationStrings":[ 
+          { 
+             "Language":"en_US",
+             "Title":"This Device is not joined to any active domain",
+             "Description": "Device must be joined to an active domain. Please contact the IT helpdesk at (714) 571-3475"
+          }
+       ]
+    },
+    { 
+       "SettingName":"DomainTrust",
+       "Operator":"IsEquals",
+       "DataType":"Boolean",
+       "Operand":true,
+       "MoreInfoUrl":"http://helpdesk/WebAccess/wd/Dashboard/OpenHomeDashboard.rails?id=0c1f39cd-743b-4698-8fbf-ee35eae8d1b0",
+       "RemediationStrings":[ 
+          { 
+             "Language":"en_US",
+             "Title":"This Device is not trusted by the WDS domain",
+             "Description": "Device must be trusted by the WDS domain. Please contact the IT helpdesk at (714) 571-3475"
+          }
+       ]
+    }
+ ]
+}
