@@ -5,7 +5,7 @@ Script: Remediation-WURegKeys
 Description:  Remediation script for WUfB service breaking or service affecting registry keys.
 #> 
 
-$ErrorActionPreference = 'Stop'
+$ErrorActionPreference = 'Continue'
 
 $KeysToRemove = @(
 'DisableDualScan'
